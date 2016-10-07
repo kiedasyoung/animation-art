@@ -1,3 +1,13 @@
-svg {
-  /*background-color: lightskyblue;*/
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+p {
+  text-align: center;
+   font-family: Ruslan Display;
+  color: lightgray;
+}
+h1{
+  text-align: center;
+  color:white;
+}
+body{
+  background-color: red;
 }

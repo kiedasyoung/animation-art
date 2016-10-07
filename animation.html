@@ -5,13 +5,11 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<h1>Sunset</h1>
     <svg width="100%" viewBox="0 0 200 100">
       <rect x="0" y="0" width="1000" height="1000" fill-opacity="1">
       <animate attributeName="fill" from="lightskyblue" to="lightpink" repeatCount="indefinite" dur="5s"/>
-      </rect>      
-<rect x="1" y="20" width="30" height="9" fill="Lightgray" begin="mouseover" fill-opacity="1">
-<animate attributeName="x" from="15" to="200" begin="mouseover" dur="1s"/>
-</rect>
+      </rect>
    <circle cx="100" cy="10" r="20" fill="yellow">
  <animate attributeName="cy" from="0" to="120" repeatCount="indefinite" dur="5s"/>
  </circle>
@@ -20,9 +18,13 @@
   <ellipse cx="40" cy="50" rx="20" ry="10" fill="white" fill-opacity="0.4"/>
 <polygon points="0 100 100 100 75 70" fill="gray"/>
 <polygon points="100 100 200 100 125 70" fill="gray"/>
-<polygon points="110 88 168 87 125 70" fill="white"/>
-<polygon points="30 88 92 90 75 70" fill="white"/>
+<polygon points="110 88 168 87 125 70" fill="white">
+  <animate attributeName="fill" from="white" to="gray" begin="click" dur="5s"/>
+</polygon>
+<polygon points="30 88 92 90 75 70" fill="white">
+<animate attributeName="fill" from="white" to="gray" begin="click" dur="5s"/>
+</polygon>
  </svg>
-
+<p>This animation is of a sunset. It shows how when the sun goes down they sky changes with the sun as an act of friend ship. What I mean by that is when the sun goes down the blue parts of the sky follows it. Even while goes down you can chose if the snow on the moutains melt or not. What inspired me to do this was that every so aften I go camping and on of the only thing to look at is the sun setting over the mountains. That or the sparks coming out of the fire going into the sky and becoming stars iif there aren't any.</p>
   </body>
 </html>
